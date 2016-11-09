@@ -11,7 +11,7 @@ function StartOver() {
   return (
     <div className="col-sm-12" style={styles.space}>
       <Link to='/playerOne'>
-        <button className='btn btn-lg btn-danger'>
+        <button className='btn btn-lg' style={styles.startish}>
           Start Over
         </button>
       </Link>

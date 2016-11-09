@@ -12,8 +12,8 @@ function ConfirmBattle(props) {
   return props.isLoading === true
   ? <Loading speed={800} text='Waiting' />
   : <MainContainer>
-      <h1>Confirm Players</h1>
-      <div className='col-sm-8 col-sm-offset-2'>
+      <h1 style={styles.spaceDown}>Confirm Players</h1>
+      <div className='col-xs-12 col-md-8 col-md-offset-2'>
         <UserDetailsWrapper header='Player One'>
           <UserDetails info={(props.playersInfo[0])} />
         </UserDetailsWrapper>
@@ -24,7 +24,7 @@ function ConfirmBattle(props) {
           
       <div className='col-xs-12 col-sm-8 col-sm-offset-2'>
         <div className='col-sm-12' style={styles.space}>
-          <button type='button' className='btn btn-lg btn-success' onClick={props.onInitiateBattle}>
+          <button type='button' className='btn btn-lg' onClick={props.onInitiateBattle} style={styles.startish}>
             Initatiate Battle
           </button>
         </div>

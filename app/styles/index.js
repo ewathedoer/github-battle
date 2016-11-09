@@ -9,16 +9,23 @@ var styles = {
     margin: '0 auto'
   },
   attraction: {
-    backgroundColor: 'purple',
-    color: 'white'
+    backgroundColor: '#7b1fa2',
+    color: '#fff'
   },
   winner: {
-    color: 'purple',
+    color: '#7b1fa2',
     fontWeight: '900',
     fontSize: '3em'
   },
   spaceDown: {
-    marginBottom: '1.5em'
+    marginBottom: '1.5em',
+    color: '#7b1fa2'
+  },
+  startish: {
+    backgroundColor: '#8bc34a',
+    color: '#fff',
+    fontSize: '2em',
+    width: 'auto'
   }
 };
 
