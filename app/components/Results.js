@@ -38,8 +38,8 @@ function Results (props) {
   
   return (
     <MainContainer>
-      <h1>Results</h1>
-      <div className='col-sm-8 col-sm-offset-2'>
+      <h1 style={styles.spaceDown}>Results</h1>
+      <div className='col-md-8 col-md-offset-2'>
         <UserDetailsWrapper header='Winner'>
           <UserDetails score={props.scores[winningIndex]} info={props.playersInfo[winningIndex]} />
         </UserDetailsWrapper>

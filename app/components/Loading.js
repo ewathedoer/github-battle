@@ -28,13 +28,13 @@ var Loading = React.createClass({
     return {
       text:'Loading',
       speed: 300
-    }
+    };
   },
   getInitialState: function() {
     this.originalText = this.props.text;
     return {
       text: this.originalText 
-    }
+    };
   },
   componentDidMount: function() {
     var stopper = this.originalText + '...';
