@@ -22,7 +22,7 @@ var ConfirmBattleContainer = React.createClass({
         });
       } else {
         this.context.router.push({
-          pathname: '/playerOne',
+          pathname: '/github-battle/playerOne',
           state: {
             wrongPlayer: true
           }
@@ -32,7 +32,7 @@ var ConfirmBattleContainer = React.createClass({
   },
   handleInitiateBattle: function() {
     this.context.router.push({
-      pathname: '/results',
+      pathname: '/github-battle/results',
       state: {
         playersInfo: this.state.playersInfo
       }

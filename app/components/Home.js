@@ -13,7 +13,7 @@ var Home = React.createClass({
         <HomeContainerWrapper>
           <h1>Github Battle</h1>
             <p className="lead">Compare Developers</p>
-            <Link to='/playerOne'>
+            <Link to='/github-battle/playerOne'>
               <button type='button' className='btn btn-lg cta'>
                 Get Started
               </button>

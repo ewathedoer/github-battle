@@ -1,6 +1,6 @@
 /* line 1, /Users/thedoer/Documents/projects/github-battle/app/styles/main.sass */
 body {
-  background: url(/app/img/skulls.png);
+  background: url(/github-battle/img/skulls.png);
   /* Background pattern from subtlepatterns.com */
   font-family: 'Prociono', serif; }
   /* line 6, /Users/thedoer/Documents/projects/github-battle/app/styles/main.sass */
@@ -8,7 +8,7 @@ body {
     overflow: hidden;
     text-overflow: ellipsis; }
   /* line 10, /Users/thedoer/Documents/projects/github-battle/app/styles/main.sass */
-  body .btn, body li {
+  body .btn, body li { 
     font-family: 'Lato', sans-serif; }
   /* line 13, /Users/thedoer/Documents/projects/github-battle/app/styles/main.sass */
   body h1.space-down {
