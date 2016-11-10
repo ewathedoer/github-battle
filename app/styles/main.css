@@ -27,34 +27,46 @@ body {
       align-self: center; }
 
 /* line 28, /Users/thedoer/Documents/projects/github-battle/app/styles/main.sass */
+.pattern {
+  background: url(/app/img/skulls.png);
+  height: 100vh; }
+
+/* line 32, /Users/thedoer/Documents/projects/github-battle/app/styles/main.sass */
+.big-form {
+  font-size: 2em;
+  height: 2.5em;
+  padding: 12px;
+  text-align: center; }
+
+/* line 38, /Users/thedoer/Documents/projects/github-battle/app/styles/main.sass */
 .intro {
   height: 300px;
   margin: 0 auto;
   padding-bottom: 2em; }
 
-/* line 33, /Users/thedoer/Documents/projects/github-battle/app/styles/main.sass */
+/* line 43, /Users/thedoer/Documents/projects/github-battle/app/styles/main.sass */
 .img-intro {
   margin-top: 2em; }
 
-/* line 36, /Users/thedoer/Documents/projects/github-battle/app/styles/main.sass */
+/* line 46, /Users/thedoer/Documents/projects/github-battle/app/styles/main.sass */
 .display-block {
   display: block;
   color: #121212; }
 
-/* line 40, /Users/thedoer/Documents/projects/github-battle/app/styles/main.sass */
+/* line 50, /Users/thedoer/Documents/projects/github-battle/app/styles/main.sass */
 .cta {
   background-color: #8bc34a;
   color: #fff;
-  fontSize: 2em;
+  font-size: 1.5em;
   width: auto; }
 
 @media screen and (max-height: 480px) and (orientation: portrait) {
-  /* line 49, /Users/thedoer/Documents/projects/github-battle/app/styles/main.sass */
+  /* line 60, /Users/thedoer/Documents/projects/github-battle/app/styles/main.sass */
   .img-intro {
     display: none; } }
 
 @media screen and (max-height: 767px) and (orientation: landscape) {
-  /* line 53, /Users/thedoer/Documents/projects/github-battle/app/styles/main.sass */
+  /* line 64, /Users/thedoer/Documents/projects/github-battle/app/styles/main.sass */
   .img-intro {
     display: none; } }
 

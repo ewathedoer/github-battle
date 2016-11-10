@@ -4,7 +4,7 @@ var transparentBg = require('../styles').transparentBg;
 
 function Prompt (props) {
   return(
-    <div className="row">
+    <div className="row pattern">
       <div className="jumbotron col-xs-12 col-md-8 col-md-offset-2 text-center" style={transparentBg}>
         <h1>
           {props.header}
@@ -13,7 +13,7 @@ function Prompt (props) {
           <form onSubmit={props.onSubmitUser}>
             <div className="form-group">
               <input
-                className="form-control"
+                className="form-control big-form"
                 placeholder="Github Username"
                 onChange={props.onUpdateUser}
                 value={props.username}
