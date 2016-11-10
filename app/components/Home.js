@@ -2,7 +2,6 @@ var React = require('react');
 var ReactRouter = require('react-router');
 var Link = ReactRouter.Link;
 var MainContainer = require('./MainContainer');
-var styles = require('../styles');
 var Img = require('./Img');
 
 var Home = React.createClass({
@@ -12,7 +11,7 @@ var Home = React.createClass({
         <h1>Github Battle</h1>
         <p className="lead">Compare Developers</p>
         <Link to='/playerOne'>
-          <button type='button' className='btn btn-lg' style={styles.startish}>
+          <button type='button' className='btn btn-lg cta'>
             Get Started
           </button>
         </Link>

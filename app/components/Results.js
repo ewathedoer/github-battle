@@ -11,7 +11,7 @@ function StartOver() {
   return (
     <div className="col-sm-12" style={styles.space}>
       <Link to='/playerOne'>
-        <button className='btn btn-lg' style={styles.startish}>
+        <button className='btn btn-lg cta'>
           Start Over
         </button>
       </Link>
@@ -38,7 +38,7 @@ function Results (props) {
   
   return (
     <MainContainer>
-      <h1 style={styles.spaceDown}>Results</h1>
+      <h1 className="space-down">Results</h1>
       <div className='col-md-8 col-md-offset-2'>
         <UserDetailsWrapper header='Winner'>
           <UserDetails score={props.scores[winningIndex]} info={props.playersInfo[winningIndex]} />

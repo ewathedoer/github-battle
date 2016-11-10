@@ -1,16 +1,15 @@
 var React = require('react');
 var PropTypes = React.PropTypes;
 var transparentBg = require('../styles').transparentBg;
-var styles = require('../styles');
 
 function Prompt (props) {
   return(
     <div className="row">
-      <div className="jumbotron col-sm-6 col-sm-offset-3 text-center" style={transparentBg}>
+      <div className="jumbotron col-xs-12 col-md-8 col-md-offset-2 text-center" style={transparentBg}>
         <h1>
           {props.header}
         </h1>
-        <div className="col-sm-12">
+        <div className="col-xs-12 col-sm-6 col-sm-offset-3">
           <form onSubmit={props.onSubmitUser}>
             <div className="form-group">
               <input
@@ -22,9 +21,8 @@ function Prompt (props) {
             </div>
             <div className="form-group">
               <button 
-                className="btn"
-                type="submit"
-                style={styles.startish}>
+                className="btn cta"
+                type="submit">
                   Continue
               </button>
             </div>

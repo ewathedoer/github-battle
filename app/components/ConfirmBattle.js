@@ -24,7 +24,7 @@ function ConfirmBattle(props) {
           
       <div className='col-xs-12 col-sm-8 col-sm-offset-2'>
         <div className='col-sm-12' style={styles.space}>
-          <button type='button' className='btn btn-lg' onClick={props.onInitiateBattle} style={styles.startish}>
+          <button type='button' className='btn btn-lg cta' onClick={props.onInitiateBattle}>
             Initatiate Battle
           </button>
         </div>
