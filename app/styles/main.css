@@ -17,23 +17,31 @@ body {
   /* line 17, /Users/thedoer/Documents/projects/github-battle/app/styles/main.sass */
   body img.center {
     margin: 0 auto; }
+  /* line 20, /Users/thedoer/Documents/projects/github-battle/app/styles/main.sass */
+  body .flex-parent {
+    display: flex;
+    justify-content: center;
+    height: 100vh; }
+    /* line 25, /Users/thedoer/Documents/projects/github-battle/app/styles/main.sass */
+    body .flex-parent .flex-child {
+      align-self: center; }
 
-/* line 20, /Users/thedoer/Documents/projects/github-battle/app/styles/main.sass */
+/* line 28, /Users/thedoer/Documents/projects/github-battle/app/styles/main.sass */
 .intro {
   height: 300px;
   margin: 0 auto;
   padding-bottom: 2em; }
 
-/* line 25, /Users/thedoer/Documents/projects/github-battle/app/styles/main.sass */
+/* line 33, /Users/thedoer/Documents/projects/github-battle/app/styles/main.sass */
 .img-intro {
   margin-top: 2em; }
 
-/* line 28, /Users/thedoer/Documents/projects/github-battle/app/styles/main.sass */
+/* line 36, /Users/thedoer/Documents/projects/github-battle/app/styles/main.sass */
 .display-block {
   display: block;
   color: #121212; }
 
-/* line 32, /Users/thedoer/Documents/projects/github-battle/app/styles/main.sass */
+/* line 40, /Users/thedoer/Documents/projects/github-battle/app/styles/main.sass */
 .cta {
   background-color: #8bc34a;
   color: #fff;
