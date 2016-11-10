@@ -48,4 +48,14 @@ body {
   fontSize: 2em;
   width: auto; }
 
+@media screen and (max-height: 480px) and (orientation: portrait) {
+  /* line 49, /Users/thedoer/Documents/projects/github-battle/app/styles/main.sass */
+  .img-intro {
+    display: none; } }
+
+@media screen and (max-height: 767px) and (orientation: landscape) {
+  /* line 53, /Users/thedoer/Documents/projects/github-battle/app/styles/main.sass */
+  .img-intro {
+    display: none; } }
+
 /*# sourceMappingURL=main.css.map */
