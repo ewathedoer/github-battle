@@ -4,7 +4,7 @@ var transparentBg = require('../styles').transparentBg;
 
 function Prompt (props) {
   return(
-    <div className="row pattern">
+    <div className="row">
       <div className="jumbotron col-xs-12 col-md-8 col-md-offset-2 text-center" style={transparentBg}>
         <h1>
           {props.header}

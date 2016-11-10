@@ -1,5 +1,5 @@
 body
-  background-color: white
+  background: url(/app/img/skulls.png)
   
   h1.space-down
     margin-bottom: 1em
@@ -21,12 +21,13 @@ body
     display: flex
     justify-content: center
     height: 100vh
+    margin: 0 -15px
   
     .flex-child
       align-self: center
 
-.pattern
-  background: url(/app/img/skulls.png)
+.no-pattern
+  background-color: #fff
   height: 100vh
 
 .big-form
@@ -64,6 +65,9 @@ body
   .img-intro
     display: none
 
+@media screen and (max-height: 568px)
+  .intro
+    height: 200px
 
 
 
