@@ -3,6 +3,10 @@ body
   /* Background pattern from subtlepatterns.com */
   font-family: 'Prociono', serif
   
+  li
+    overflow: hidden
+    text-overflow: ellipsis
+    
   .btn, li
     font-family: 'Lato', sans-serif
     
@@ -83,6 +87,7 @@ body
 
 .misspelled
   color: red
+  font-size: 2em
 
 @media screen and (max-height: 480px) and (orientation: portrait)
   .img-intro

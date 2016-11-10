@@ -30,8 +30,7 @@ UserDetails.propTypes = {
     location: PropTypes.string,
     login: PropTypes.string.isRequired,
     name: PropTypes.string,
-    public_repos: PropTypes.number.isRequired,
-    stargazers_count: PropTypes.number.isRequired
+    public_repos: PropTypes.number.isRequired
   })
 }
 
