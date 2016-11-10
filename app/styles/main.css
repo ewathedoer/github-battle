@@ -1,0 +1,20 @@
+/* line 1, /Users/thedoer/Documents/projects/github-battle/app/styles/main.sass */
+body {
+  background-color: white; }
+
+/* line 4, /Users/thedoer/Documents/projects/github-battle/app/styles/main.sass */
+.intro {
+  height: 300px;
+  margin: 0 auto;
+  padding-bottom: 2em; }
+
+/* line 9, /Users/thedoer/Documents/projects/github-battle/app/styles/main.sass */
+.img-intro {
+  margin-top: 2em; }
+
+/* line 12, /Users/thedoer/Documents/projects/github-battle/app/styles/main.sass */
+.display-block {
+  display: block;
+  color: #121212; }
+
+/*# sourceMappingURL=main.css.map */

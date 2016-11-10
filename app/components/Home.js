@@ -3,6 +3,7 @@ var ReactRouter = require('react-router');
 var Link = ReactRouter.Link;
 var MainContainer = require('./MainContainer');
 var styles = require('../styles');
+var Img = require('./Img');
 
 var Home = React.createClass({
   render: function() {
@@ -15,6 +16,7 @@ var Home = React.createClass({
             Get Started
           </button>
         </Link>
+        <Img />
       </MainContainer>
     )
   }
