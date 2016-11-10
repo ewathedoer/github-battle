@@ -53,28 +53,56 @@ body {
 /* line 48, /Users/thedoer/Documents/projects/github-battle/app/styles/main.sass */
 .display-block {
   display: block;
-  color: #121212; }
+  color: #121212;
+  font-size: 0.7em; }
 
-/* line 52, /Users/thedoer/Documents/projects/github-battle/app/styles/main.sass */
+/* line 53, /Users/thedoer/Documents/projects/github-battle/app/styles/main.sass */
 .cta {
   background-color: #8bc34a;
   color: #fff;
   font-size: 1.5em;
-  width: auto; }
+  width: auto;
+  text-transform: uppercase; }
+  /* line 62, /Users/thedoer/Documents/projects/github-battle/app/styles/main.sass */
+  .cta:hover,
+  .cta:active,
+  .cta:focus {
+    color: #7b1fa2;
+    background-color: #b6ff61; }
+
+/* line 66, /Users/thedoer/Documents/projects/github-battle/app/styles/main.sass */
+.uppercase {
+  text-transform: uppercase; }
+
+/* line 69, /Users/thedoer/Documents/projects/github-battle/app/styles/main.sass */
+.reselect-btn {
+  background-color: #139dd9;
+  color: #fff; }
+  /* line 75, /Users/thedoer/Documents/projects/github-battle/app/styles/main.sass */
+  .reselect-btn:hover,
+  .reselect-btn:active,
+  .reselect-btn:focus {
+    background-color: #16b8ff;
+    color: #7b1fa2; }
 
 @media screen and (max-height: 480px) and (orientation: portrait) {
-  /* line 62, /Users/thedoer/Documents/projects/github-battle/app/styles/main.sass */
+  /* line 81, /Users/thedoer/Documents/projects/github-battle/app/styles/main.sass */
   .img-intro {
     display: none; } }
 
 @media screen and (max-height: 767px) and (orientation: landscape) {
-  /* line 66, /Users/thedoer/Documents/projects/github-battle/app/styles/main.sass */
+  /* line 85, /Users/thedoer/Documents/projects/github-battle/app/styles/main.sass */
   .img-intro {
     display: none; } }
 
 @media screen and (max-height: 568px) {
-  /* line 70, /Users/thedoer/Documents/projects/github-battle/app/styles/main.sass */
+  /* line 89, /Users/thedoer/Documents/projects/github-battle/app/styles/main.sass */
   .intro {
     height: 200px; } }
+
+@media screen and (max-height: 768px) {
+  /* line 94, /Users/thedoer/Documents/projects/github-battle/app/styles/main.sass */
+  .mobile-space-down:first-child {
+    margin-bottom: 2em; } }
 
 /*# sourceMappingURL=main.css.map */

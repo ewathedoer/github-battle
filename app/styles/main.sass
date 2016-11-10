@@ -48,14 +48,33 @@ body
 .display-block
   display: block
   color: #121212
+  font-size: 0.7em
 
 .cta
   background-color: #8bc34a
   color: #fff
   font-size: 1.5em
   width: auto
+  text-transform: uppercase
+  
+  &:hover,
+  &:active,
+  &:focus
+    color: #7b1fa2
+    background-color: #b6ff61
 
+.uppercase
+  text-transform: uppercase
 
+.reselect-btn
+  background-color: #139dd9
+  color: #fff
+
+  &:hover,
+  &:active,
+  &:focus
+    background-color: #16b8ff
+    color: #7b1fa2
 
 
 @media screen and (max-height: 480px) and (orientation: portrait)
@@ -70,6 +89,10 @@ body
   .intro
     height: 200px
 
+@media screen and (max-height: 768px)
+  .mobile-space-down
+    &:first-child
+      margin-bottom: 2em
 
 
 
