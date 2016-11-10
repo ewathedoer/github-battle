@@ -1,60 +1,61 @@
 /* line 1, /Users/thedoer/Documents/projects/github-battle/app/styles/main.sass */
 body {
-  background: url(/app/img/skulls.png); }
-  /* line 4, /Users/thedoer/Documents/projects/github-battle/app/styles/main.sass */
+  background: url(/app/img/subtle_dots.png);
+  /* Background pattern from subtlepatterns.com */ }
+  /* line 5, /Users/thedoer/Documents/projects/github-battle/app/styles/main.sass */
   body h1.space-down {
     margin-bottom: 1em;
     color: #7b1fa2; }
-  /* line 8, /Users/thedoer/Documents/projects/github-battle/app/styles/main.sass */
+  /* line 9, /Users/thedoer/Documents/projects/github-battle/app/styles/main.sass */
   body p.results {
     color: #7b1fa2;
     font-weight: 900;
     font-size: 3em; }
-  /* line 13, /Users/thedoer/Documents/projects/github-battle/app/styles/main.sass */
+  /* line 14, /Users/thedoer/Documents/projects/github-battle/app/styles/main.sass */
   body li.attraction {
     background-color: #7b1fa2;
     color: #fff; }
-  /* line 17, /Users/thedoer/Documents/projects/github-battle/app/styles/main.sass */
+  /* line 18, /Users/thedoer/Documents/projects/github-battle/app/styles/main.sass */
   body img.center {
     margin: 0 auto; }
-  /* line 20, /Users/thedoer/Documents/projects/github-battle/app/styles/main.sass */
+  /* line 21, /Users/thedoer/Documents/projects/github-battle/app/styles/main.sass */
   body .flex-parent {
     display: flex;
     justify-content: center;
     height: 100vh;
     margin: 0 -15px; }
-    /* line 26, /Users/thedoer/Documents/projects/github-battle/app/styles/main.sass */
+    /* line 27, /Users/thedoer/Documents/projects/github-battle/app/styles/main.sass */
     body .flex-parent .flex-child {
       align-self: center; }
 
-/* line 29, /Users/thedoer/Documents/projects/github-battle/app/styles/main.sass */
+/* line 30, /Users/thedoer/Documents/projects/github-battle/app/styles/main.sass */
 .no-pattern {
   background-color: #fff;
   height: 100vh; }
 
-/* line 33, /Users/thedoer/Documents/projects/github-battle/app/styles/main.sass */
+/* line 34, /Users/thedoer/Documents/projects/github-battle/app/styles/main.sass */
 .big-form {
   font-size: 2em;
   height: 2.5em;
   padding: 12px;
   text-align: center; }
 
-/* line 39, /Users/thedoer/Documents/projects/github-battle/app/styles/main.sass */
+/* line 40, /Users/thedoer/Documents/projects/github-battle/app/styles/main.sass */
 .intro {
   height: 300px;
   margin: 0 auto;
   padding-bottom: 2em; }
 
-/* line 44, /Users/thedoer/Documents/projects/github-battle/app/styles/main.sass */
+/* line 45, /Users/thedoer/Documents/projects/github-battle/app/styles/main.sass */
 .img-intro {
   margin-top: 2em; }
 
-/* line 47, /Users/thedoer/Documents/projects/github-battle/app/styles/main.sass */
+/* line 48, /Users/thedoer/Documents/projects/github-battle/app/styles/main.sass */
 .display-block {
   display: block;
   color: #121212; }
 
-/* line 51, /Users/thedoer/Documents/projects/github-battle/app/styles/main.sass */
+/* line 52, /Users/thedoer/Documents/projects/github-battle/app/styles/main.sass */
 .cta {
   background-color: #8bc34a;
   color: #fff;
@@ -62,17 +63,17 @@ body {
   width: auto; }
 
 @media screen and (max-height: 480px) and (orientation: portrait) {
-  /* line 61, /Users/thedoer/Documents/projects/github-battle/app/styles/main.sass */
+  /* line 62, /Users/thedoer/Documents/projects/github-battle/app/styles/main.sass */
   .img-intro {
     display: none; } }
 
 @media screen and (max-height: 767px) and (orientation: landscape) {
-  /* line 65, /Users/thedoer/Documents/projects/github-battle/app/styles/main.sass */
+  /* line 66, /Users/thedoer/Documents/projects/github-battle/app/styles/main.sass */
   .img-intro {
     display: none; } }
 
 @media screen and (max-height: 568px) {
-  /* line 69, /Users/thedoer/Documents/projects/github-battle/app/styles/main.sass */
+  /* line 70, /Users/thedoer/Documents/projects/github-battle/app/styles/main.sass */
   .intro {
     height: 200px; } }
 
