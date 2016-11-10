@@ -90,23 +90,27 @@ body {
     background-color: #16b8ff;
     color: #7b1fa2; }
 
+/* line 84, /Users/thedoer/Documents/projects/github-battle/app/styles/main.sass */
+.misspelled {
+  color: red; }
+
 @media screen and (max-height: 480px) and (orientation: portrait) {
-  /* line 86, /Users/thedoer/Documents/projects/github-battle/app/styles/main.sass */
+  /* line 88, /Users/thedoer/Documents/projects/github-battle/app/styles/main.sass */
   .img-intro {
     display: none; } }
 
 @media screen and (max-height: 767px) and (orientation: landscape) {
-  /* line 90, /Users/thedoer/Documents/projects/github-battle/app/styles/main.sass */
+  /* line 92, /Users/thedoer/Documents/projects/github-battle/app/styles/main.sass */
   .img-intro {
     display: none; } }
 
 @media screen and (max-height: 568px) {
-  /* line 94, /Users/thedoer/Documents/projects/github-battle/app/styles/main.sass */
+  /* line 96, /Users/thedoer/Documents/projects/github-battle/app/styles/main.sass */
   .intro {
     height: 200px; } }
 
 @media screen and (max-height: 768px) {
-  /* line 99, /Users/thedoer/Documents/projects/github-battle/app/styles/main.sass */
+  /* line 101, /Users/thedoer/Documents/projects/github-battle/app/styles/main.sass */
   .mobile-space-down:first-child {
     margin-bottom: 2em; } }
 

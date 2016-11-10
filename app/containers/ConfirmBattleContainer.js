@@ -15,10 +15,19 @@ var ConfirmBattleContainer = React.createClass({
   componentDidMount: function() {
     var query = this.props.location.query;
     githubHelpers.getPlayersInfo([query.playerOne, query.playerTwo]).then(function(players) {
-      this.setState({
-        isLoading: false,
-        playersInfo: [players[0], players[1]]
-      })
+      if(typeof players !== 'undefined') {
+        this.setState({
+          isLoading: false,
+          playersInfo: [players[0], players[1]]
+        });
+      } else {
+        this.context.router.push({
+          pathname: '/playerOne',
+          state: {
+            wrongPlayer: true
+          }
+        })
+      }      
     }.bind(this))
   },
   handleInitiateBattle: function() {

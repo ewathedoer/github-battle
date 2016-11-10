@@ -3,6 +3,10 @@ var PropTypes = React.PropTypes;
 var transparentBg = require('../styles').transparentBg;
 
 function Prompt (props) {
+  var error = '';
+  if (props.error) {
+    error = 'Your warriors are misspelled!';
+  }
   return(
     <div className="row">
       <div className="jumbotron col-xs-12 col-md-8 col-md-offset-2 text-center" style={transparentBg}>
@@ -27,6 +31,9 @@ function Prompt (props) {
               </button>
             </div>
           </form>
+          <div className="misspelled">
+            {error}
+          </div>
         </div>
       </div>
     </div>
@@ -37,7 +44,8 @@ Prompt.propTypes = {
   header: PropTypes.string.isRequired,
   onUpdateUser: PropTypes.func.isRequired,
   onSubmitUser: PropTypes.func.isRequired,
-  username: PropTypes.string.isRequired
+  username: PropTypes.string.isRequired,
+  error: PropTypes.bool
 }
 
 module.exports = Prompt;

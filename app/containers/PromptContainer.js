@@ -36,12 +36,17 @@ var PromptContainer = React.createClass({
     
   },
   render: function(){
+    var errorValue = false;
+    if (typeof this.props.location.state !== 'undefined') {
+      errorValue = this.props.location.state.wrongPlayer;
+    } 
     return(
       <Prompt 
         onSubmitUser = {this.handleSubmitUser} 
         onUpdateUser = {this.handleUpdateUser} 
         header = {this.props.route.header}
-        username = {this.state.username} />
+        username = {this.state.username}
+        error = {errorValue} />
     )
   }
 });
