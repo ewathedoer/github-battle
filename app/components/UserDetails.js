@@ -4,7 +4,7 @@ var PropTypes = React.PropTypes;
 function UserDetails (user) {
   return (
     <div>
-      {!!user.score && <li className="list-group-item attraction"><h3>Score: {user.score}</h3></li>}
+      {user.score >= 0 && <li className="list-group-item attraction"><h3>Score: {user.score}</h3></li>}
       <li className="list-group-item"> <img src={user.info.avatar_url} className="img-rounded img-responsive center"/></li>
       {user.info.name && <li className="list-group-item">Name: {user.info.name}</li>}
       <li className="list-group-item">Username: {user.info.login}</li>
@@ -13,6 +13,7 @@ function UserDetails (user) {
       <li className="list-group-item">Followers: {user.info.followers}</li>
       <li className="list-group-item">Following: {user.info.following}</li>
       <li className="list-group-item">Public Repos: {user.info.public_repos}</li>
+      {user.stars >= 0 && <li className="list-group-item">Stars: {user.stars}</li>}
       {user.info.blog && <li className="list-group-item">Blog: <a href={user.info.blog}> {user.info.blog}</a></li>}
     </div>
   )
@@ -30,6 +31,7 @@ UserDetails.propTypes = {
     login: PropTypes.string.isRequired,
     name: PropTypes.string,
     public_repos: PropTypes.number.isRequired,
+    stargazers_count: PropTypes.number.isRequired
   })
 }
 

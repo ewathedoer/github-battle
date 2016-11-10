@@ -41,10 +41,10 @@ function Results (props) {
       <h1 className="space-down uppercase">Results</h1>
       <div className='col-md-8 col-md-offset-2'>
         <UserDetailsWrapper header='Winner'>
-          <UserDetails score={props.scores[winningIndex]} info={props.playersInfo[winningIndex]} />
+          <UserDetails score={props.scores[winningIndex]} stars={props.stars[winningIndex]} info={props.playersInfo[winningIndex]} />
         </UserDetailsWrapper>
         <UserDetailsWrapper header='Loser'>
-          <UserDetails score={props.scores[losingIndex]} info={props.playersInfo[losingIndex]} />
+          <UserDetails score={props.scores[losingIndex]} stars={props.stars[losingIndex]} info={props.playersInfo[losingIndex]} />
         </UserDetailsWrapper>
       </div>
       <StartOver />  
@@ -55,7 +55,8 @@ function Results (props) {
 Results.propTypes = {
   isLoading: PropTypes.bool.isRequired,
   playersInfo: PropTypes.array.isRequired,
-  scores: PropTypes.array.isRequired
+  scores: PropTypes.array.isRequired,
+  stars: PropTypes.array.isRequired
 }
 
 module.exports = Results;
