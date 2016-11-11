@@ -35,7 +35,7 @@ body {
     -ms-flex-pack: center;
     justify-content: center;
     height: 100vh;
-    margin: 0 -15px; } 
+    margin: 0 -15px; }
     /* line 35, /Users/thedoer/Documents/projects/github-battle/app/styles/main.sass */
     body .flex-parent .flex-child {
       -ms-flex-item-align: center;
@@ -113,22 +113,28 @@ body {
 .form-control:active {
   border-color: #8bc34a; }
 
-@media screen and (max-height: 480px) and (orientation: portrait) {
-  /* line 101, /Users/thedoer/Documents/projects/github-battle/app/styles/main.sass */
-  .img-intro {
-    display: none; } }
+/* line 100, /Users/thedoer/Documents/projects/github-battle/app/styles/main.sass */
+.loser {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  opacity: 0.7; } 
 
-@media screen and (max-height: 767px) and (orientation: landscape) {
+@media screen and (max-height: 480px) and (orientation: portrait) {
   /* line 105, /Users/thedoer/Documents/projects/github-battle/app/styles/main.sass */
   .img-intro {
     display: none; } }
 
-@media screen and (max-height: 568px) {
+@media screen and (max-height: 767px) and (orientation: landscape) {
   /* line 109, /Users/thedoer/Documents/projects/github-battle/app/styles/main.sass */
+  .img-intro {
+    display: none; } }
+
+@media screen and (max-height: 568px) {
+  /* line 113, /Users/thedoer/Documents/projects/github-battle/app/styles/main.sass */
   .intro {
     height: 200px; } }
 
 @media screen and (max-height: 768px) {
-  /* line 114, /Users/thedoer/Documents/projects/github-battle/app/styles/main.sass */
+  /* line 118, /Users/thedoer/Documents/projects/github-battle/app/styles/main.sass */
   .mobile-space-down:first-child {
     margin-bottom: 2em; } }

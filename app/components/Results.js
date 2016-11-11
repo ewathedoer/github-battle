@@ -44,7 +44,7 @@ function Results (props) {
           <UserDetails score={props.scores[winningIndex]} stars={props.stars[winningIndex]} info={props.playersInfo[winningIndex]} />
         </UserDetailsWrapper>
         <UserDetailsWrapper header='Loser'>
-          <UserDetails score={props.scores[losingIndex]} stars={props.stars[losingIndex]} info={props.playersInfo[losingIndex]} />
+          <UserDetails score={props.scores[losingIndex]} stars={props.stars[losingIndex]} info={props.playersInfo[losingIndex]} loser='true' />
         </UserDetailsWrapper>
       </div>
       <StartOver />  

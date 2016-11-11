@@ -2,8 +2,12 @@ var React = require('react');
 var PropTypes = React.PropTypes;
 
 function UserDetails (user) {
+  var classVal = '';
+  if (user.loser) {
+    classVal = 'loser';
+  }
   return (
-    <div>
+    <div className={classVal}>
       {user.score >= 0 && <li className="list-group-item attraction"><h3>Score: {user.score}</h3></li>}
       <li className="list-group-item"> <img src={user.info.avatar_url} className="img-rounded img-responsive center"/></li>
       {user.info.name && <li className="list-group-item">Name: {user.info.name}</li>}
@@ -21,6 +25,7 @@ function UserDetails (user) {
 
 UserDetails.propTypes = {
   score: PropTypes.number,
+  loser: PropTypes.bool,
   info: PropTypes.shape({
     avatar_url: PropTypes.string.isRequired,
     blog: PropTypes.string,
