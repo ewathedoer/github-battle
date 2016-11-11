@@ -56,7 +56,9 @@ body
 .display-block
   display: block
   color: #121212
-  font-size: 0.7em
+  font-size: 1em
+  cursor: pointer
+  margin-bottom: 1em
 
 .cta
   background-color: #8bc34a
@@ -71,6 +73,7 @@ body
   &:focus
     color: #7b1fa2
     background-color: #b6ff61
+    border-color: #b6ff61
 
 .uppercase
   text-transform: uppercase
@@ -84,10 +87,15 @@ body
   &:focus
     background-color: #16b8ff
     color: #7b1fa2
+    border-color: #16b8ff
 
 .misspelled
   color: red
   font-size: 2em
+  
+.form-control:focus,
+.form-control:active
+  border-color: #8bc34a
 
 @media screen and (max-height: 480px) and (orientation: portrait)
   .img-intro

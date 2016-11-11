@@ -21,7 +21,8 @@ function Prompt (props) {
                 placeholder="Github Username"
                 onChange={props.onUpdateUser}
                 value={props.username}
-                type="text" />
+                type="text"
+                ariaLabel="enter github username"/>
             </div>
             <div className="form-group">
               <button 
