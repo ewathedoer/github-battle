@@ -6,6 +6,9 @@ function UserDetails (user) {
   if (user.loser) {
     classVal = 'loser';
   }
+  if (user.info.blog && user.info.blog.length > 0 && !user.info.blog.match(/^[a-zA-Z]+:\/\//)) {
+    user.info.blog = 'http://' + user.info.blog;
+  }
   return (
     <div className={classVal}>
       {user.score >= 0 && <li className="list-group-item attraction"><h3>Score: {user.score}</h3></li>}
